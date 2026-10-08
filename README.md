@@ -1,35 +1,31 @@
 # Invitación de cumpleaños
 
-Invitación estática de dos pantallas para el 16 de octubre en La Embajada, Zaragoza. El archivo `index.html` está en la raíz del repositorio para que pueda publicarse directamente con GitHub Pages.
+Invitación estática de dos páginas para el 16 de octubre en La Embajada, Zaragoza. El archivo `index.html` está en la raíz del repositorio para que pueda publicarse directamente con GitHub Pages.
 
 ## Estructura
 
 ```text
 .
 ├── index.html
+├── detalles.html
 ├── assets/
 │   ├── sushi-night.png
 │   └── dinner-night-v2.png
 ├── styles/
 │   ├── base.css
 │   ├── invitation.css
-│   ├── rsvp.css
+│   ├── dress-code.css
 │   └── responsive.css
-└── js/
-    ├── config.js
-    ├── rsvp.js
-    └── main.js
 ```
 
 ## Archivos principales
 
 - `styles/base.css`: variables visuales, estilos globales, botones y animaciones.
+- `index.html`: portada principal de la invitación.
+- `detalles.html`: datos del evento y código de vestimenta.
 - `styles/invitation.css`: composición de las dos pantallas y tarjeta del evento.
-- `styles/rsvp.css`: campos, opciones y resultado del formulario.
+- `styles/dress-code.css`: presentación editorial del código de vestimenta `WHITE`.
 - `styles/responsive.css`: adaptaciones para tablet, móvil y movimiento reducido.
-- `js/config.js`: fecha, horario y lugar utilizados en la confirmación.
-- `js/rsvp.js`: creación, edición y uso compartido de la confirmación.
-- `js/main.js`: arranque de la interfaz.
 
 ## GitHub Pages
 

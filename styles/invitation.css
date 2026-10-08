@@ -88,6 +88,15 @@
   text-transform: uppercase;
 }
 
+.occasion {
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.occasion:hover {
+  color: var(--white);
+}
+
 .hero__copy {
   align-self: center;
   width: min(720px, 100%);

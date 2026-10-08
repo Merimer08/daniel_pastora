@@ -84,7 +84,7 @@
   }
 
   .event-card,
-  .rsvp {
+  .dress-code-card {
     padding: 26px 22px;
   }
 
@@ -96,8 +96,8 @@
     font-size: 5.5rem;
   }
 
-  .confirmation__actions {
-    flex-direction: column;
+  .dress-code-card__swatch {
+    min-height: 180px;
   }
 }
 
