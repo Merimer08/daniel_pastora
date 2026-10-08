@@ -67,10 +67,11 @@
 }
 
 .monogram {
-  width: 42px;
-  height: 42px;
+  width: 46px;
+  height: 46px;
   display: grid;
   place-items: center;
+  text-align: center;
   border: 1px solid var(--line);
   border-radius: 50%;
   color: var(--cobalt-soft);
